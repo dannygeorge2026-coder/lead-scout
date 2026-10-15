@@ -1,0 +1,58 @@
+# ==========================
+# Environment Variables & Secrets
+# ==========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================
+# Python Virtual Environments
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Python Cache & Bytecode
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Database & Checkpoints
+# ==========================
+*.sqlite
+*.sqlite3
+checkpoints.sqlite
+
+# ==========================
+# IDE & OS Files
+# ==========================
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Compiled Binaries
+# ==========================
+*.exe
+*.out
+*.o
